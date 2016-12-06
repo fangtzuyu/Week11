@@ -12,7 +12,7 @@ $(document).ready(function(){
   // Firebase database reference
 
   var dbUser = firebase.database().ref().child('user');
-  var dbRef = firebase.database().ref();
+ 
   var photoURL;
   var $img = $('img');
 
