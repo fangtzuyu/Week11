@@ -143,6 +143,13 @@ $(document).ready(function(){
       $age.on('value', function(snap){
         $profileAge.html(snap.val());
       });
+      $occu.on('value', function(snap){
+        $profileOccupation.html(snap.val());
+      });
+
+      $des.on('value', function(snap){
+        $profileDescriptions.html(snap.val());
+      });
     } else {
       console.log("not logged in");
       $profileName.html("N/A");
